@@ -73,7 +73,7 @@ def main():
                     success = crawler.generate_daily_json(date_str, market=market_arg)
                     if success:
                         st.success(f"{date_str} 데이터 생성 완료!")
-                        st.experimental_rerun()
+                        st.rerun()
                     else:
                         st.error("데이터 생성에 실패했습니다.")
                 except Exception as e:
@@ -92,7 +92,7 @@ def main():
                     market_arg = "US" if selected_market == "🇺🇸 미국 주식" else "KR"
                     success = crawler.generate_daily_json(date_str, market=market_arg)
                     if success:
-                        st.experimental_rerun()
+                        st.rerun()
                     else:
                         st.error("데이터 업데이트에 실패했습니다.")
                 except Exception as e:
