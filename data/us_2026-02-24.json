@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-02-25 03:37:28",
+  "last_updated": "2026-02-25 04:35:21",
   "signals": [
     {
       "id": "sig_20260224_US_001",
       "theme": "##글로벌시황",
-      "short_reason": "Is Europe ready to reduce its ...",
-      "summary": "마스터카드 주가는 Is Europe ready to reduce its reliance on Visa and Mastercard? 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "short_reason": "Neo Financial partners with Un...",
+      "summary": "마스터카드 주가는 Neo Financial partners with United Airlines on new co-branded Mastercard 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "마스터카드",
         "symbol": "MA",
@@ -14,9 +14,9 @@
       },
       "news_articles": [
         {
-          "title": "Is Europe ready to reduce its reliance on Visa and Mastercard?",
-          "url": "https://www.electronicpaymentsinternational.com/analyst-comment/is-europe-ready-reduce-reliance-visa-mastercard/?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 12:21:09 +0000",
+          "title": "Neo Financial partners with United Airlines on new co-branded Mastercard",
+          "url": "https://financialpost.com/fp-finance/fintech/neo-financial-partners-united-airlines-new-mastercard?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 13:15:43 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -56,16 +56,16 @@
           "has_name": true
         },
         {
-          "title": "Buyout Chatter Lifts PYPL Stock Following Executive Shakeup",
-          "url": "https://finance.yahoo.com/news/buyout-chatter-lifts-pypl-stock-120200989.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 12:02:00 +0000",
+          "title": "Is Europe ready to reduce its reliance on Visa and Mastercard?",
+          "url": "https://www.electronicpaymentsinternational.com/analyst-comment/is-europe-ready-reduce-reliance-visa-mastercard/?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 12:21:09 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Neo Financial partners with United Airlines on new co-branded Mastercard",
-          "url": "https://financialpost.com/fp-finance/fintech/neo-financial-partners-united-airlines-new-mastercard?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 13:15:43 +0000",
+          "title": "Buyout Chatter Lifts PYPL Stock Following Executive Shakeup",
+          "url": "https://finance.yahoo.com/news/buyout-chatter-lifts-pypl-stock-120200989.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 12:02:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -76,7 +76,7 @@
           "change_rate": "-4.5%"
         }
       ],
-      "timestamp": "2026-02-25 03:37:28",
+      "timestamp": "2026-02-25 04:35:21",
       "analyst_data": {
         "strongBuy": 6,
         "buy": 28,
@@ -88,8 +88,8 @@
     {
       "id": "sig_20260224_US_002",
       "theme": "##바이오",
-      "short_reason": "Stock in Rivals Novo Nordisk a...",
-      "summary": "오늘 일라이릴리 주가는 Stock in Rivals Novo Nordisk and Eli Lilly Slips 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "Novo Nordisk Is Cutting Ozempi...",
+      "summary": "일라이릴리은(는) Novo Nordisk Is Cutting Ozempic and Wegovy Prices. The Stock Is Still Slumping. 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "일라이릴리",
         "symbol": "LLY",
@@ -98,9 +98,16 @@
       },
       "news_articles": [
         {
-          "title": "Stock in Rivals Novo Nordisk and Eli Lilly Slips",
-          "url": "https://finance.yahoo.com/m/3895abac-cae0-3d1c-8ef5-f387c5a51129/stock-in-rivals-novo-nordisk.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 14:18:56 +0000",
+          "title": "Novo Nordisk Is Cutting Ozempic and Wegovy Prices. The Stock Is Still Slumping.",
+          "url": "https://finance.yahoo.com/m/0d730ac9-82b1-3495-80b5-e3ce44ef2b64/novo-nordisk-is-cutting.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 14:49:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Health Care Roundup: Market Talk",
+          "url": "https://finance.yahoo.com/m/4d26fff2-5848-3b7c-a245-171e3a8748f5/health-care-roundup%3A-market.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 17:26:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -112,7 +119,7 @@
           "has_name": true
         },
         {
-          "title": "Novo Nordisk, Eli Lilly Stocks Drop on Wegovy Maker's Price-Cut Plan",
+          "title": "Novo Nordisk, Eli Lilly Stocks Drop on Wegovy Maker’s Price-Cut Plan",
           "url": "https://finance.yahoo.com/m/3895abac-cae0-3d1c-8ef5-f387c5a51129/novo-nordisk%2C-eli-lilly.html?.tsrc=rss",
           "date": "Tue, 24 Feb 2026 15:43:57 +0000",
           "source": "Yahoo Finance",
@@ -133,6 +140,13 @@
           "has_name": true
         },
         {
+          "title": "Stock in Rivals Novo Nordisk and Eli Lilly Slips",
+          "url": "https://finance.yahoo.com/m/3895abac-cae0-3d1c-8ef5-f387c5a51129/stock-in-rivals-novo-nordisk.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 14:18:56 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
           "title": "Novo Nordisk to slash Wegovy and Ozempic prices starting in 2027",
           "url": "https://www.cbsnews.com/news/wegovy-ozempic-novo-nordisk-price-cut-january-2027/?ftag=YHF4eb9d17&.tsrc=rss",
           "date": "Tue, 24 Feb 2026 15:08:16 +0000",
@@ -143,13 +157,6 @@
           "title": "Novo Nordisk downgraded by leading banks as CagriSema trial flops against Zepbound",
           "url": "https://www.proactiveinvestors.com/companies/news/1087825/novo-nordisk-downgraded-by-leading-banks-as-cagrisema-trial-flops-against-zepbound-1087825.html?.tsrc=rss",
           "date": "Tue, 24 Feb 2026 14:15:04 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Novo Nordisk Is Cutting Ozempic and Wegovy Prices. The Stock Is Still Slumping.",
-          "url": "https://finance.yahoo.com/m/0d730ac9-82b1-3495-80b5-e3ce44ef2b64/novo-nordisk-is-cutting.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 14:49:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -168,7 +175,7 @@
           "change_rate": "+1.3%"
         }
       ],
-      "timestamp": "2026-02-25 03:37:28",
+      "timestamp": "2026-02-25 04:35:21",
       "analyst_data": {
         "strongBuy": 5,
         "buy": 18,
@@ -180,8 +187,8 @@
     {
       "id": "sig_20260224_US_003",
       "theme": "##글로벌시황",
-      "short_reason": "Radiology Information System M...",
-      "summary": "오라클 주가는 Radiology Information System Market Competitive Landscape Report 2025 Featuring Top Players - Koninklijke Philips, Siemens Healthcare, Oracle, McKesson, GE HealthCare 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "short_reason": "Factbox-From OpenAI to Nvidia,...",
+      "summary": "오라클 주가는 Factbox-From OpenAI to Nvidia, firms channel billions into AI infrastructure as demand booms 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "오라클",
         "symbol": "ORCL",
@@ -190,9 +197,30 @@
       },
       "news_articles": [
         {
-          "title": "Radiology Information System Market Competitive Landscape Report 2025 Featuring Top Players - Koninklijke Philips, Siemens Healthcare, Oracle, McKesson, GE HealthCare",
-          "url": "https://finance.yahoo.com/news/radiology-information-system-market-competitive-112300423.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 11:23:00 +0000",
+          "title": "Factbox-From OpenAI to Nvidia, firms channel billions into AI infrastructure as demand booms",
+          "url": "https://finance.yahoo.com/news/factbox-openai-nvidia-firms-channel-122400217.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 12:24:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Workday Reports Earnings Today. Can It End the SaaSpocalypse?",
+          "url": "https://finance.yahoo.com/m/c7c6d6c0-c095-3e95-bdbc-f79d1181a303/workday-reports-earnings.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 19:20:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "US Equity Indexes Rise as Investors Nibble on Software, Semiconductor Shares",
+          "url": "https://finance.yahoo.com/news/us-equity-indexes-rise-investors-190634512.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 19:06:34 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Larry Ellison Says He Was Drawn To Computers Due To Basketball, Saying It Was 'Immediate Feedback' That Got Him Hooked: 'You Win Or Lose Very Quickly'",
+          "url": "https://finance.yahoo.com/news/larry-ellison-says-drawn-computers-190107092.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 19:01:07 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -207,6 +235,13 @@
           "title": "The Zacks Analyst Blog Highlights Oracle, Intuitive Surgical, Analog Devices and Moving iMage Technologies",
           "url": "https://finance.yahoo.com/news/zacks-analyst-blog-highlights-oracle-151100137.html?.tsrc=rss",
           "date": "Tue, 24 Feb 2026 15:11:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Radiology Information System Market Competitive Landscape Report 2025 Featuring Top Players - Koninklijke Philips, Siemens Healthcare, Oracle, McKesson, GE HealthCare",
+          "url": "https://finance.yahoo.com/news/radiology-information-system-market-competitive-112300423.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 11:23:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -237,13 +272,6 @@
           "date": "Tue, 24 Feb 2026 11:14:56 +0000",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Factbox-From OpenAI to Nvidia, firms channel billions into AI infrastructure as demand booms",
-          "url": "https://finance.yahoo.com/news/factbox-openai-nvidia-firms-channel-122400217.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 12:24:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -264,7 +292,7 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-25 03:37:28",
+      "timestamp": "2026-02-25 04:35:21",
       "analyst_data": {
         "strongBuy": 6,
         "buy": 25,
@@ -276,8 +304,8 @@
     {
       "id": "sig_20260224_US_004",
       "theme": "##결제",
-      "short_reason": "Vitalik Buterin Decided To 'Le...",
-      "summary": "비자은(는) Vitalik Buterin Decided To 'Leave University For Good,' But Confirmation That It Was A Good Idea Only Came When He Experienced This 'Social Proof' 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "short_reason": "Accertify Appoints Carleigh Ja...",
+      "summary": "비자은(는) Accertify Appoints Carleigh Jaques to Board of Directors 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
       "main_stock": {
         "name": "비자",
         "symbol": "V",
@@ -286,9 +314,9 @@
       },
       "news_articles": [
         {
-          "title": "Vitalik Buterin Decided To 'Leave University For Good,' But Confirmation That It Was A Good Idea Only Came When He Experienced This 'Social Proof'",
-          "url": "https://finance.yahoo.com/news/vitalik-buterin-decided-leave-university-123020969.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 12:30:20 +0000",
+          "title": "Accertify Appoints Carleigh Jaques to Board of Directors",
+          "url": "https://finance.yahoo.com/news/accertify-appoints-carleigh-jaques-board-130000451.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 13:00:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -296,6 +324,13 @@
           "title": "Visa (V) Valuation Check After Recent Share Price Weakness",
           "url": "https://finance.yahoo.com/news/visa-v-valuation-check-recent-180455482.html?.tsrc=rss",
           "date": "Tue, 24 Feb 2026 18:04:55 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Visa vs. Affirm: Which Payments Stock Wins the Upside Race?",
+          "url": "https://finance.yahoo.com/news/visa-vs-affirm-payments-stock-173700590.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 17:37:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -321,9 +356,9 @@
           "has_name": true
         },
         {
-          "title": "Accertify Appoints Carleigh Jaques to Board of Directors",
-          "url": "https://finance.yahoo.com/news/accertify-appoints-carleigh-jaques-board-130000451.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 13:00:00 +0000",
+          "title": "Vitalik Buterin Decided To 'Leave University For Good,' But Confirmation That It Was A Good Idea Only Came When He Experienced This 'Social Proof'",
+          "url": "https://finance.yahoo.com/news/vitalik-buterin-decided-leave-university-123020969.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 12:30:20 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -334,7 +369,7 @@
           "change_rate": "-5.8%"
         }
       ],
-      "timestamp": "2026-02-25 03:37:28",
+      "timestamp": "2026-02-25 04:35:21",
       "analyst_data": {
         "strongBuy": 7,
         "buy": 30,
@@ -359,6 +394,20 @@
           "title": "JPMorgan Chase & Co. (JPM) Could Be a Great Choice",
           "url": "https://finance.yahoo.com/news/jpmorgan-chase-co-jpm-could-164501814.html?.tsrc=rss",
           "date": "Tue, 24 Feb 2026 16:45:01 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "JPMorgan Acknowledges Shutting Down Trump Accounts After January 6",
+          "url": "https://finance.yahoo.com/news/jpmorgan-acknowledges-shutting-down-trump-193103644.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 19:31:03 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Market Chatter: Trump Administration Mulls Requiring Banks to Gather Citizenship Data",
+          "url": "https://finance.yahoo.com/news/market-chatter-trump-administration-mulls-191341921.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 19:13:41 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -418,7 +467,7 @@
           "change_rate": "-3.8%"
         }
       ],
-      "timestamp": "2026-02-25 03:37:28",
+      "timestamp": "2026-02-25 04:35:21",
       "analyst_data": {
         "strongBuy": 5,
         "buy": 9,
@@ -430,8 +479,8 @@
     {
       "id": "sig_20260224_US_006",
       "theme": "##글로벌시황",
-      "short_reason": "Anthropic Unveils New Claude T...",
-      "summary": "세일즈포스 주가는 Anthropic Unveils New Claude Tools Linked to Google and Microsoft. Software Stocks Rise. 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "short_reason": "Salesforce faces its AI reckon...",
+      "summary": "오늘 세일즈포스의 하락은 Salesforce faces its AI reckoning on Wednesday, but Wedbush sees a buying opportunity in the wreckage와 관련된 불확실성이 시장에 반영된 영향이 큽니다.",
       "main_stock": {
         "name": "세일즈포스",
         "symbol": "CRM",
@@ -440,16 +489,30 @@
       },
       "news_articles": [
         {
-          "title": "Anthropic Unveils New Claude Tools Linked to Google and Microsoft. Software Stocks Rise.",
-          "url": "https://finance.yahoo.com/m/2920b775-3a2c-3a09-912b-3fe8986078bf/anthropic-unveils-new-claude.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 15:34:00 +0000",
+          "title": "Salesforce faces its AI reckoning on Wednesday, but Wedbush sees a buying opportunity in the wreckage",
+          "url": "https://www.proactiveinvestors.com/companies/news/1087836/salesforce-faces-its-ai-reckoning-on-wednesday-but-wedbush-sees-a-buying-opportunity-in-the-wreckage-1087836.html?.tsrc=rss",
+          "date": "02.25 00:45",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Anthropic Shows Olive Branch At Enterprise Event. Software Stocks Gain.",
-          "url": "https://finance.yahoo.com/m/bb3a0955-48a7-3530-b2c5-df829eeb27ad/anthropic-shows-olive-branch.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 18:25:11 +0000",
+          "title": "Anthropic Unveils New Claude Tools. Software Stocks Rise.",
+          "url": "https://finance.yahoo.com/m/2920b775-3a2c-3a09-912b-3fe8986078bf/anthropic-unveils-new-claude.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 18:57:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Investors Are Dumping Software Stocks and Earnings Won’t Stop It",
+          "url": "https://finance.yahoo.com/news/investors-dumping-software-stocks-earnings-104057192.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 18:56:29 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Anthropic Extends Enterprise Olive Branch, Lifts Software Stocks",
+          "url": "https://finance.yahoo.com/m/bb3a0955-48a7-3530-b2c5-df829eeb27ad/anthropic-extends-enterprise.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 18:32:31 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -464,6 +527,13 @@
           "title": "Software stocks rise on Anthropic partnerships, Spirit Airlines cuts flights",
           "url": "https://finance.yahoo.com/video/software-stocks-rise-anthropic-partnerships-181150817.html?.tsrc=rss",
           "date": "Tue, 24 Feb 2026 18:11:50 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Anthropic Shows Olive Branch At Enterprise Event. Software Stocks Gain.",
+          "url": "https://finance.yahoo.com/m/bb3a0955-48a7-3530-b2c5-df829eeb27ad/anthropic-shows-olive-branch.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 18:25:11 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -508,13 +578,6 @@
           "date": "Tue, 24 Feb 2026 15:28:40 +0000",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Salesforce faces its AI reckoning on Wednesday, but Wedbush sees a buying opportunity in the wreckage",
-          "url": "https://www.proactiveinvestors.com/companies/news/1087836/salesforce-faces-its-ai-reckoning-on-wednesday-but-wedbush-sees-a-buying-opportunity-in-the-wreckage-1087836.html?.tsrc=rss",
-          "date": "02.25 00:45",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -531,7 +594,7 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-25 03:37:28",
+      "timestamp": "2026-02-25 04:35:21",
       "analyst_data": {
         "strongBuy": 7,
         "buy": 37,
@@ -543,8 +606,8 @@
     {
       "id": "sig_20260224_US_007",
       "theme": "##글로벌시황",
-      "short_reason": "Dell stock target cut at BofA ...",
-      "summary": "오늘 뱅크오브아메리카의 하락은 Dell stock target cut at BofA on rising memory costs와 관련된 불확실성이 시장에 반영된 영향이 큽니다.",
+      "short_reason": "Bank Of America Expands Privat...",
+      "summary": "오늘 뱅크오브아메리카의 하락은 Bank Of America Expands Private Credit And Premium Services As Valuation Lags와 관련된 불확실성이 시장에 반영된 영향이 큽니다.",
       "main_stock": {
         "name": "뱅크오브아메리카",
         "symbol": "BAC",
@@ -553,9 +616,16 @@
       },
       "news_articles": [
         {
-          "title": "Dell stock target cut at BofA on rising memory costs",
-          "url": "https://finance.yahoo.com/news/dell-stock-target-cut-bofa-151133363.html?.tsrc=rss",
-          "date": "02.24 00:11",
+          "title": "Bank Of America Expands Private Credit And Premium Services As Valuation Lags",
+          "url": "https://finance.yahoo.com/news/bank-america-expands-private-credit-231637943.html?.tsrc=rss",
+          "date": "Mon, 23 Feb 2026 23:16:37 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Market Chatter: Trump Administration Mulls Requiring Banks to Gather Citizenship Data",
+          "url": "https://finance.yahoo.com/news/market-chatter-trump-administration-mulls-191341921.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 19:13:41 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -588,9 +658,9 @@
           "has_name": true
         },
         {
-          "title": "Bank Of America Expands Private Credit And Premium Services As Valuation Lags",
-          "url": "https://finance.yahoo.com/news/bank-america-expands-private-credit-231637943.html?.tsrc=rss",
-          "date": "Mon, 23 Feb 2026 23:16:37 +0000",
+          "title": "Dell stock target cut at BofA on rising memory costs",
+          "url": "https://finance.yahoo.com/news/dell-stock-target-cut-bofa-151133363.html?.tsrc=rss",
+          "date": "02.24 00:11",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -601,7 +671,7 @@
           "change_rate": "-4.2%"
         }
       ],
-      "timestamp": "2026-02-25 03:37:28",
+      "timestamp": "2026-02-25 04:35:21",
       "analyst_data": {
         "strongBuy": 6,
         "buy": 15,
@@ -613,8 +683,8 @@
     {
       "id": "sig_20260224_US_008",
       "theme": "##글로벌시황",
-      "short_reason": "Limitless X Holdings Named Exe...",
-      "summary": "넷플릭스은(는) Limitless X Holdings Named Executive Producer in Historic Mayweather vs. Pacquiao II Pro Boxing Rematch to Stream Live on Netflix 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "short_reason": "Paramount Makes a Fresh Offer ...",
+      "summary": "넷플릭스 주가는 Paramount Makes a Fresh Offer for Warner Bros. What Happens Now. 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "넷플릭스",
         "symbol": "NFLX",
@@ -623,9 +693,9 @@
       },
       "news_articles": [
         {
-          "title": "Limitless X Holdings Named Executive Producer in Historic Mayweather vs. Pacquiao II Pro Boxing Rematch to Stream Live on Netflix",
-          "url": "https://finance.yahoo.com/news/limitless-x-holdings-named-executive-150000573.html?.tsrc=rss",
-          "date": "02.25 00:00",
+          "title": "Paramount Makes a Fresh Offer for Warner Bros. What Happens Now.",
+          "url": "https://finance.yahoo.com/m/d90a4c91-08c9-3803-8e9c-1142face0f91/paramount-makes-a-fresh-offer.html?.tsrc=rss",
+          "date": "02.25 00:01",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -665,6 +735,13 @@
           "has_name": true
         },
         {
+          "title": "Limitless X Holdings Named Executive Producer in Historic Mayweather vs. Pacquiao II Pro Boxing Rematch to Stream Live on Netflix",
+          "url": "https://finance.yahoo.com/news/limitless-x-holdings-named-executive-150000573.html?.tsrc=rss",
+          "date": "02.25 00:00",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
           "title": "Warner Receives Revised Bid From Paramount",
           "url": "https://www.wsj.com/business/media/warner-receives-new-bid-from-paramount-a1f3fc41?.tsrc=rss",
           "date": "02.24 23:27",
@@ -682,13 +759,6 @@
           "title": "PARAMOUNT CONFIRMS SUBMISSION OF REVISED PROPOSAL TO ACQUIRE WARNER BROS. DISCOVERY",
           "url": "https://finance.yahoo.com/news/paramount-confirms-submission-revised-proposal-141000850.html?.tsrc=rss",
           "date": "Tue, 24 Feb 2026 14:10:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Paramount Makes a Fresh Offer for Warner Bros. What Happens Now.",
-          "url": "https://finance.yahoo.com/m/d90a4c91-08c9-3803-8e9c-1142face0f91/paramount-makes-a-fresh-offer.html?.tsrc=rss",
-          "date": "02.25 00:01",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -711,7 +781,7 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-25 03:37:28",
+      "timestamp": "2026-02-25 04:35:21",
       "analyst_data": {
         "strongBuy": 9,
         "buy": 22,
@@ -723,8 +793,8 @@
     {
       "id": "sig_20260224_US_009",
       "theme": "##빅테크",
-      "short_reason": "Anthropic Unveils New Claude T...",
-      "summary": "마이크로소프트 주가는 Anthropic Unveils New Claude Tools Linked to Google and Microsoft. Software Stocks Rise. 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "short_reason": "PRATUS® Selected as Official I...",
+      "summary": "오늘 마이크로소프트의 하락은 PRATUS® Selected as Official Incident Management Platform for the U.S. Coast Guard와 관련된 불확실성이 시장에 반영된 영향이 큽니다.",
       "main_stock": {
         "name": "마이크로소프트",
         "symbol": "MSFT",
@@ -733,16 +803,30 @@
       },
       "news_articles": [
         {
-          "title": "Anthropic Unveils New Claude Tools Linked to Google and Microsoft. Software Stocks Rise.",
-          "url": "https://finance.yahoo.com/m/2920b775-3a2c-3a09-912b-3fe8986078bf/anthropic-unveils-new-claude.html?.tsrc=rss",
-          "date": "02.25 00:34",
+          "title": "PRATUS® Selected as Official Incident Management Platform for the U.S. Coast Guard",
+          "url": "https://finance.yahoo.com/news/pratus-selected-official-incident-management-153000932.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 15:30:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Anthropic Shows Olive Branch At Enterprise Event. Software Stocks Gain.",
-          "url": "https://finance.yahoo.com/m/bb3a0955-48a7-3530-b2c5-df829eeb27ad/anthropic-shows-olive-branch.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 18:25:11 +0000",
+          "title": "Anthropic Unveils New Claude Tools. Software Stocks Rise.",
+          "url": "https://finance.yahoo.com/m/2920b775-3a2c-3a09-912b-3fe8986078bf/anthropic-unveils-new-claude.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 18:57:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Anthropic Extends Enterprise Olive Branch, Lifts Software Stocks",
+          "url": "https://finance.yahoo.com/m/bb3a0955-48a7-3530-b2c5-df829eeb27ad/anthropic-extends-enterprise.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 18:32:31 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Have Mag 7 Stocks Transformed into GARP Plays?",
+          "url": "https://finance.yahoo.com/news/mag-7-stocks-transformed-garp-181300610.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 18:13:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -757,6 +841,13 @@
           "title": "Microsoft Stock Ticks Up as OpenAI Deals Keep Azure on Track",
           "url": "https://finance.yahoo.com/news/microsoft-stock-ticks-openai-deals-180533808.html?.tsrc=rss",
           "date": "Tue, 24 Feb 2026 18:05:33 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Anthropic Shows Olive Branch At Enterprise Event. Software Stocks Gain.",
+          "url": "https://finance.yahoo.com/m/bb3a0955-48a7-3530-b2c5-df829eeb27ad/anthropic-shows-olive-branch.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 18:25:11 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -808,13 +899,6 @@
           "date": "Tue, 24 Feb 2026 15:37:14 +0000",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "PRATUS® Selected as Official Incident Management Platform for the U.S. Coast Guard",
-          "url": "https://finance.yahoo.com/news/pratus-selected-official-incident-management-153000932.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 15:30:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -839,7 +923,7 @@
           "change_rate": "-4.6%"
         }
       ],
-      "timestamp": "2026-02-25 03:37:28",
+      "timestamp": "2026-02-25 04:35:21",
       "analyst_data": {
         "strongBuy": 10,
         "buy": 44,
@@ -851,8 +935,8 @@
     {
       "id": "sig_20260224_US_010",
       "theme": "##전기차",
-      "short_reason": "Waymo's robotaxis now being di...",
-      "summary": "테슬라 주가는 Waymo's robotaxis now being dispatched in 10 major U.S. markets with expansion in Texas and Florida 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "short_reason": "Tesla Suing California, Says R...",
+      "summary": "테슬라은(는) Tesla Suing California, Says Report. What It Means for the Stock. 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
       "main_stock": {
         "name": "테슬라",
         "symbol": "TSLA",
@@ -861,23 +945,37 @@
       },
       "news_articles": [
         {
-          "title": "Waymo's robotaxis now being dispatched in 10 major U.S. markets with expansion in Texas and Florida",
-          "url": "https://finance.yahoo.com/news/waymos-robotaxis-now-being-dispatched-141029107.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 14:10:29 +0000",
+          "title": "Tesla Suing California, Says Report. What It Means for the Stock.",
+          "url": "https://finance.yahoo.com/m/e9629a6f-b8ce-3d4a-aa0f-58dc8ee9f010/tesla-suing-california%2C-says.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 14:46:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Lucid Q4 preview: Gravity production, cash burn in focus for EV maker at crossroads",
+          "url": "https://finance.yahoo.com/news/lucid-q4-preview-gravity-production-cash-burn-in-focus-for-ev-maker-at-crossroads-193237004.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 19:32:37 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
           "title": "The EU Warms To Chinese EVs. BYD Registrations In Europe Grow 165%.",
           "url": "https://finance.yahoo.com/m/a251393a-0e1d-3afa-b6cf-afbccf3dcc0f/the-eu-warms-to-chinese-evs..html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 17:55:53 +0000",
+          "date": "Tue, 24 Feb 2026 19:05:46 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Waymo Expands to 10 Cities. Tesla Feels the Heat on Robo-Taxi Rollout.",
+          "title": "Waymo Expands to 10 Cities. Why Tesla Stock Is Rising.",
           "url": "https://finance.yahoo.com/m/e5de09b5-e899-325c-8acc-3ea8adbd274b/waymo-expands-to-10-cities..html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 17:26:00 +0000",
+          "date": "Tue, 24 Feb 2026 18:57:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Have Mag 7 Stocks Transformed into GARP Plays?",
+          "url": "https://finance.yahoo.com/news/mag-7-stocks-transformed-garp-181300610.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 18:13:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -885,6 +983,13 @@
           "title": "Nvidia's Earnings Are Almost Here. Here's the State of the Magnificent 7 Stocks.",
           "url": "https://www.investopedia.com/nvidia-s-earnings-are-almost-here-here-s-the-state-of-the-magnificent-7-stocks-nvda-11912486?.tsrc=rss",
           "date": "Tue, 24 Feb 2026 16:50:17 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Waymo's robotaxis now being dispatched in 10 major U.S. markets with expansion in Texas and Florida",
+          "url": "https://finance.yahoo.com/news/waymos-robotaxis-now-being-dispatched-141029107.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 14:10:29 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -922,17 +1027,10 @@
           "date": "Tue, 24 Feb 2026 15:25:03 +0000",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Tesla Suing California, Says Report. What It Means for the Stock.",
-          "url": "https://finance.yahoo.com/m/e9629a6f-b8ce-3d4a-aa0f-58dc8ee9f010/tesla-suing-california%2C-says.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 14:46:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [],
-      "timestamp": "2026-02-25 03:37:28",
+      "timestamp": "2026-02-25 04:35:21",
       "analyst_data": {
         "strongBuy": 4,
         "buy": 16,
