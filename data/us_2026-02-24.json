@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-24 16:15:33",
+  "last_updated": "2026-02-24 16:40:24",
   "signals": [
     {
       "id": "sig_20260224_US_001",
@@ -17,6 +17,13 @@
           "title": "Buyout Chatter Lifts PYPL Stock Following Executive Shakeup",
           "url": "https://finance.yahoo.com/news/buyout-chatter-lifts-pypl-stock-120200989.html?.tsrc=rss",
           "date": "Tue, 24 Feb 2026 12:02:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Gap Inc. Remakes Its Loyalty Program",
+          "url": "https://wwd.com/business-news/retail/gap-inc-launches-new-loyalty-program-1238623107/?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 16:05:28 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -55,7 +62,7 @@
           "change_rate": "-4.5%"
         }
       ],
-      "timestamp": "2026-02-24 16:15:28",
+      "timestamp": "2026-02-24 16:40:18",
       "analyst_data": {
         "strongBuy": 6,
         "buy": 28,
@@ -68,7 +75,7 @@
       "id": "sig_20260224_US_002",
       "theme": "##바이오",
       "short_reason": "Novo Nordisk downgraded by lea...",
-      "summary": "오늘 일라이릴리 주가는 Novo Nordisk downgraded by leading banks as CagriSema trial flops against Zepbound 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "일라이릴리의 상승세는 Novo Nordisk downgraded by leading banks as CagriSema trial flops against Zepbound에 따른 업황 기대감이 반영된 결과로 풀이됩니다.",
       "main_stock": {
         "name": "일라이릴리",
         "symbol": "LLY",
@@ -126,7 +133,7 @@
           "change_rate": "+1.3%"
         }
       ],
-      "timestamp": "2026-02-24 16:15:29",
+      "timestamp": "2026-02-24 16:40:19",
       "analyst_data": {
         "strongBuy": 5,
         "buy": 18,
@@ -139,7 +146,7 @@
       "id": "sig_20260224_US_003",
       "theme": "##글로벌시황",
       "short_reason": "Goldman Team Says Asset-Heavy ...",
-      "summary": "오라클 주가는 Goldman Team Says Asset-Heavy Stocks Outperform on AI Fears 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "summary": "오늘 오라클의 하락은 Goldman Team Says Asset-Heavy Stocks Outperform on AI Fears와 관련된 불확실성이 시장에 반영된 영향이 큽니다.",
       "main_stock": {
         "name": "오라클",
         "symbol": "ORCL",
@@ -151,6 +158,13 @@
           "title": "Goldman Team Says Asset-Heavy Stocks Outperform on AI Fears",
           "url": "https://finance.yahoo.com/news/goldman-strategists-asset-heavy-stocks-101843233.html?.tsrc=rss",
           "date": "Tue, 24 Feb 2026 11:14:56 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "The Zacks Analyst Blog Highlights Oracle, Intuitive Surgical, Analog Devices and Moving iMage Technologies",
+          "url": "https://finance.yahoo.com/news/zacks-analyst-blog-highlights-oracle-151100137.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 15:11:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -201,7 +215,7 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-24 16:15:29",
+      "timestamp": "2026-02-24 16:40:20",
       "analyst_data": {
         "strongBuy": 6,
         "buy": 25,
@@ -214,7 +228,7 @@
       "id": "sig_20260224_US_004",
       "theme": "##결제",
       "short_reason": "Vitalik Buterin Decided To 'Le...",
-      "summary": "비자은(는) Vitalik Buterin Decided To 'Leave University For Good,' But Confirmation That It Was A Good Idea Only Came When He Experienced This 'Social Proof' 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "summary": "비자 주가는 Vitalik Buterin Decided To 'Leave University For Good,' But Confirmation That It Was A Good Idea Only Came When He Experienced This 'Social Proof' 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "비자",
         "symbol": "V",
@@ -264,7 +278,7 @@
           "change_rate": "-5.8%"
         }
       ],
-      "timestamp": "2026-02-24 16:15:30",
+      "timestamp": "2026-02-24 16:40:20",
       "analyst_data": {
         "strongBuy": 7,
         "buy": 30,
@@ -327,7 +341,7 @@
           "change_rate": "-3.8%"
         }
       ],
-      "timestamp": "2026-02-24 16:15:30",
+      "timestamp": "2026-02-24 16:40:21",
       "analyst_data": {
         "strongBuy": 5,
         "buy": 9,
@@ -339,8 +353,8 @@
     {
       "id": "sig_20260224_US_006",
       "theme": "##글로벌시황",
-      "short_reason": "Stocks Head Higher as Market A...",
-      "summary": "세일즈포스 주가는 Stocks Head Higher as Market Attempts a Rebound 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "short_reason": "Anthropic Unveils New Claude T...",
+      "summary": "오늘 세일즈포스의 하락은 Anthropic Unveils New Claude Tools Linked to Google and Microsoft. Software Stocks Rise.와 관련된 불확실성이 시장에 반영된 영향이 큽니다.",
       "main_stock": {
         "name": "세일즈포스",
         "symbol": "CRM",
@@ -349,9 +363,23 @@
       },
       "news_articles": [
         {
-          "title": "Stocks Head Higher as Market Attempts a Rebound",
-          "url": "https://finance.yahoo.com/m/9a0e4573-f4dd-3a09-ac50-248de503af3d/stocks-head-higher-as-market.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 15:28:40 +0000",
+          "title": "Anthropic Unveils New Claude Tools Linked to Google and Microsoft. Software Stocks Rise.",
+          "url": "https://finance.yahoo.com/m/2920b775-3a2c-3a09-912b-3fe8986078bf/anthropic-unveils-new-claude.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 15:34:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Anthropic Mends Fences At Enterprise Event. Software Stocks Gain.",
+          "url": "https://finance.yahoo.com/m/bb3a0955-48a7-3530-b2c5-df829eeb27ad/anthropic-mends-fences-at.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 16:31:10 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Nasdaq, Dow Jones recover as new Trump tariffs begin, IMB and Salesforce rebound",
+          "url": "https://www.proactiveinvestors.com/companies/news/1087833/s-p-500-expected-to-start-flat-as-new-trump-tariffs-begin-1087833.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 16:30:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -377,9 +405,9 @@
           "has_name": true
         },
         {
-          "title": "Anthropic Unveils New Claude Tools Linked to Google and Microsoft. Software Stocks Rise.",
-          "url": "https://finance.yahoo.com/m/2920b775-3a2c-3a09-912b-3fe8986078bf/anthropic-unveils-new-claude.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 15:34:00 +0000",
+          "title": "Stocks Head Higher as Market Attempts a Rebound",
+          "url": "https://finance.yahoo.com/m/9a0e4573-f4dd-3a09-ac50-248de503af3d/stocks-head-higher-as-market.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 15:28:40 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -398,7 +426,7 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-24 16:15:31",
+      "timestamp": "2026-02-24 16:40:21",
       "analyst_data": {
         "strongBuy": 6,
         "buy": 37,
@@ -461,7 +489,7 @@
           "change_rate": "-4.2%"
         }
       ],
-      "timestamp": "2026-02-24 16:15:31",
+      "timestamp": "2026-02-24 16:40:22",
       "analyst_data": {
         "strongBuy": 6,
         "buy": 15,
@@ -474,7 +502,7 @@
       "id": "sig_20260224_US_008",
       "theme": "##글로벌시황",
       "short_reason": "PARAMOUNT CONFIRMS SUBMISSION ...",
-      "summary": "넷플릭스 주가는 PARAMOUNT CONFIRMS SUBMISSION OF REVISED PROPOSAL TO ACQUIRE WARNER BROS. DISCOVERY 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "summary": "오늘 넷플릭스의 하락은 PARAMOUNT CONFIRMS SUBMISSION OF REVISED PROPOSAL TO ACQUIRE WARNER BROS. DISCOVERY와 관련된 불확실성이 시장에 반영된 영향이 큽니다.",
       "main_stock": {
         "name": "넷플릭스",
         "symbol": "NFLX",
@@ -486,6 +514,13 @@
           "title": "PARAMOUNT CONFIRMS SUBMISSION OF REVISED PROPOSAL TO ACQUIRE WARNER BROS. DISCOVERY",
           "url": "https://finance.yahoo.com/news/paramount-confirms-submission-revised-proposal-141000850.html?.tsrc=rss",
           "date": "Tue, 24 Feb 2026 14:10:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Netflix Stock Keeps Dipping: Is It Finally Time to Buy?",
+          "url": "https://www.fool.com/investing/2026/02/24/netflix-stock-keeps-dipping-is-it-finally-time-to/?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 16:20:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -536,7 +571,7 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-24 16:15:32",
+      "timestamp": "2026-02-24 16:40:22",
       "analyst_data": {
         "strongBuy": 9,
         "buy": 22,
@@ -561,6 +596,13 @@
           "title": "Meta AMD AI Chip Alliance Reshapes Meta Platforms Capital And Compute Story",
           "url": "https://finance.yahoo.com/news/meta-amd-ai-chip-alliance-150959071.html?.tsrc=rss",
           "date": "Tue, 24 Feb 2026 15:09:59 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Anthropic Mends Fences At Enterprise Event. Software Stocks Gain.",
+          "url": "https://finance.yahoo.com/m/bb3a0955-48a7-3530-b2c5-df829eeb27ad/anthropic-mends-fences-at.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 16:31:10 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -615,7 +657,7 @@
           "change_rate": "-4.6%"
         }
       ],
-      "timestamp": "2026-02-24 16:15:32",
+      "timestamp": "2026-02-24 16:40:24",
       "analyst_data": {
         "strongBuy": 10,
         "buy": 44,
@@ -627,8 +669,8 @@
     {
       "id": "sig_20260224_US_010",
       "theme": "##전기차",
-      "short_reason": "Waymo's robotaxis now being di...",
-      "summary": "테슬라은(는) Waymo's robotaxis now being dispatched in 10 major U.S. markets with expansion in Texas and Florida 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "short_reason": "Safety record for autnomous ve...",
+      "summary": "테슬라 주가는 Safety record for autnomous vehicles brings more questions 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "테슬라",
         "symbol": "TSLA",
@@ -637,9 +679,23 @@
       },
       "news_articles": [
         {
-          "title": "Waymo's robotaxis now being dispatched in 10 major U.S. markets with expansion in Texas and Florida",
-          "url": "https://finance.yahoo.com/news/waymos-robotaxis-now-being-dispatched-141029107.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 14:10:29 +0000",
+          "title": "Safety record for autnomous vehicles brings more questions",
+          "url": "https://www.thestreet.com/technology/safety-record-for-autnomous-vehicles-offers-more-questions?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 14:33:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Tesla must face lawsuit alleging anti-American bias in hiring, US judge rules",
+          "url": "https://finance.yahoo.com/news/tesla-must-face-lawsuit-alleging-163317741.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 16:35:23 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Plug in Hybrid Electric Vehicle Competitive Landscape Report 2025: Key Players Analysis, Profiles, Product Developments, Mergers, Strategic Collaborations, and Revenue Forecast Insights to 2033",
+          "url": "https://finance.yahoo.com/news/plug-hybrid-electric-vehicle-competitive-160900968.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 16:09:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -665,15 +721,15 @@
           "has_name": true
         },
         {
-          "title": "Safety record for autnomous vehicles brings more questions",
-          "url": "https://www.thestreet.com/technology/safety-record-for-autnomous-vehicles-offers-more-questions?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 14:33:00 +0000",
+          "title": "Waymo's robotaxis now being dispatched in 10 major U.S. markets with expansion in Texas and Florida",
+          "url": "https://finance.yahoo.com/news/waymos-robotaxis-now-being-dispatched-141029107.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 14:10:29 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         }
       ],
       "related_stocks": [],
-      "timestamp": "2026-02-24 16:15:33",
+      "timestamp": "2026-02-24 16:40:24",
       "analyst_data": {
         "strongBuy": 4,
         "buy": 16,
