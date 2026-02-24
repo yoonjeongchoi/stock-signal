@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-02-25 05:00:34",
+  "last_updated": "2026-02-25 05:42:57",
   "signals": [
     {
       "id": "sig_20260224_US_001",
       "theme": "##글로벌시황",
-      "short_reason": "Buyout Chatter Lifts PYPL Stoc...",
-      "summary": "오늘 마스터카드의 하락은 Buyout Chatter Lifts PYPL Stock Following Executive Shakeup와 관련된 불확실성이 시장에 반영된 영향이 큽니다.",
+      "short_reason": "Is Europe ready to reduce its ...",
+      "summary": "마스터카드은(는) Is Europe ready to reduce its reliance on Visa and Mastercard? 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
       "main_stock": {
         "name": "마스터카드",
         "symbol": "MA",
@@ -14,9 +14,16 @@
       },
       "news_articles": [
         {
-          "title": "Buyout Chatter Lifts PYPL Stock Following Executive Shakeup",
-          "url": "https://finance.yahoo.com/news/buyout-chatter-lifts-pypl-stock-120200989.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 12:02:00 +0000",
+          "title": "Is Europe ready to reduce its reliance on Visa and Mastercard?",
+          "url": "https://www.electronicpaymentsinternational.com/analyst-comment/is-europe-ready-reduce-reliance-visa-mastercard/?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 12:21:09 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Fidelity National Q4 Earnings Miss Estimates on Increasing Expenses",
+          "url": "https://finance.yahoo.com/news/fidelity-national-q4-earnings-miss-184900156.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 18:49:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -49,6 +56,13 @@
           "has_name": true
         },
         {
+          "title": "Buyout Chatter Lifts PYPL Stock Following Executive Shakeup",
+          "url": "https://finance.yahoo.com/news/buyout-chatter-lifts-pypl-stock-120200989.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 12:02:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
           "title": "Mastercard Stock: Is MA Underperforming the Financial Sector?",
           "url": "https://www.barchart.com/story/news/390496/mastercard-stock-is-ma-underperforming-the-financial-sector?.tsrc=rss",
           "date": "Tue, 24 Feb 2026 14:55:17 +0000",
@@ -61,13 +75,6 @@
           "date": "Tue, 24 Feb 2026 13:15:43 +0000",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Is Europe ready to reduce its reliance on Visa and Mastercard?",
-          "url": "https://www.electronicpaymentsinternational.com/analyst-comment/is-europe-ready-reduce-reliance-visa-mastercard/?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 12:21:09 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -76,7 +83,7 @@
           "change_rate": "-4.5%"
         }
       ],
-      "timestamp": "2026-02-25 05:00:34",
+      "timestamp": "2026-02-25 05:42:57",
       "analyst_data": {
         "strongBuy": 6,
         "buy": 28,
@@ -88,8 +95,8 @@
     {
       "id": "sig_20260224_US_002",
       "theme": "##바이오",
-      "short_reason": "Novo Nordisk downgraded by lea...",
-      "summary": "일라이릴리은(는) Novo Nordisk downgraded by leading banks as CagriSema trial flops against Zepbound 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "Novo Nordisk to slash Wegovy a...",
+      "summary": "오늘 일라이릴리 주가는 Novo Nordisk to slash Wegovy and Ozempic prices starting in 2027 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "일라이릴리",
         "symbol": "LLY",
@@ -98,9 +105,30 @@
       },
       "news_articles": [
         {
-          "title": "Novo Nordisk downgraded by leading banks as CagriSema trial flops against Zepbound",
-          "url": "https://www.proactiveinvestors.com/companies/news/1087825/novo-nordisk-downgraded-by-leading-banks-as-cagrisema-trial-flops-against-zepbound-1087825.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 14:15:04 +0000",
+          "title": "Novo Nordisk to slash Wegovy and Ozempic prices starting in 2027",
+          "url": "https://www.cbsnews.com/news/wegovy-ozempic-novo-nordisk-price-cut-january-2027/?ftag=YHF4eb9d17&.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 15:08:16 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Novo Nordisk Unveils Up to 50% US Price Cut for Wegovy, Ozempic",
+          "url": "https://finance.yahoo.com/news/novo-nordisk-unveils-50-us-194838556.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 19:48:38 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Eli Lilly Drops After Novo Nordisk Unleashes Massive GLP-1 Price Cuts",
+          "url": "https://finance.yahoo.com/news/eli-lilly-drops-novo-nordisk-194722337.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 19:47:22 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Novo Nordisk to Cut U.S. List Prices for Ozempic, Wegovy by Up to 50%",
+          "url": "https://finance.yahoo.com/m/e6c62423-d75f-3a95-acf9-c2c9fecb967a/novo-nordisk-to-cut-u.s.-list.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 19:19:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -119,16 +147,16 @@
           "has_name": true
         },
         {
-          "title": "Novo Nordisk, Eli Lilly Stocks Drop on Wegovy Maker’s Price-Cut Plan",
-          "url": "https://finance.yahoo.com/m/3895abac-cae0-3d1c-8ef5-f387c5a51129/novo-nordisk%2C-eli-lilly.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 15:43:57 +0000",
+          "title": "Novo Nordisk downgraded by leading banks as CagriSema trial flops against Zepbound",
+          "url": "https://www.proactiveinvestors.com/companies/news/1087825/novo-nordisk-downgraded-by-leading-banks-as-cagrisema-trial-flops-against-zepbound-1087825.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 14:15:04 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Novo Nordisk to Cut U.S. List Prices for Ozempic, Wegovy by Up to 50%",
-          "url": "https://finance.yahoo.com/m/e6c62423-d75f-3a95-acf9-c2c9fecb967a/novo-nordisk-to-cut-u.s.-list.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 15:35:00 +0000",
+          "title": "Novo Nordisk, Eli Lilly Stocks Drop on Wegovy Maker’s Price-Cut Plan",
+          "url": "https://finance.yahoo.com/m/3895abac-cae0-3d1c-8ef5-f387c5a51129/novo-nordisk%2C-eli-lilly.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 15:43:57 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -152,13 +180,6 @@
           "date": "Tue, 24 Feb 2026 14:18:56 +0000",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Novo Nordisk to slash Wegovy and Ozempic prices starting in 2027",
-          "url": "https://www.cbsnews.com/news/wegovy-ozempic-novo-nordisk-price-cut-january-2027/?ftag=YHF4eb9d17&.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 15:08:16 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -175,7 +196,7 @@
           "change_rate": "+1.3%"
         }
       ],
-      "timestamp": "2026-02-25 05:00:34",
+      "timestamp": "2026-02-25 05:42:57",
       "analyst_data": {
         "strongBuy": 5,
         "buy": 18,
@@ -187,8 +208,8 @@
     {
       "id": "sig_20260224_US_003",
       "theme": "##글로벌시황",
-      "short_reason": "Goldman Team Says Asset-Heavy ...",
-      "summary": "오라클 주가는 Goldman Team Says Asset-Heavy Stocks Outperform on AI Fears 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "short_reason": "How to Find Strong Computer an...",
+      "summary": "오라클 주가는 How to Find Strong Computer and Technology Stocks Slated for Positive Earnings Surprises 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "오라클",
         "symbol": "ORCL",
@@ -197,9 +218,9 @@
       },
       "news_articles": [
         {
-          "title": "Goldman Team Says Asset-Heavy Stocks Outperform on AI Fears",
-          "url": "https://finance.yahoo.com/news/goldman-strategists-asset-heavy-stocks-101843233.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 11:14:56 +0000",
+          "title": "How to Find Strong Computer and Technology Stocks Slated for Positive Earnings Surprises",
+          "url": "https://finance.yahoo.com/news/strong-computer-technology-stocks-slated-140006233.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 14:00:06 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -239,6 +260,13 @@
           "has_name": true
         },
         {
+          "title": "Goldman Team Says Asset-Heavy Stocks Outperform on AI Fears",
+          "url": "https://finance.yahoo.com/news/goldman-strategists-asset-heavy-stocks-101843233.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 11:14:56 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
           "title": "Factbox-From OpenAI to Nvidia, firms channel billions into AI infrastructure as demand booms",
           "url": "https://finance.yahoo.com/news/factbox-openai-nvidia-firms-channel-122400217.html?.tsrc=rss",
           "date": "Tue, 24 Feb 2026 12:24:00 +0000",
@@ -265,13 +293,6 @@
           "date": "Tue, 24 Feb 2026 14:56:17 +0000",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "How to Find Strong Computer and Technology Stocks Slated for Positive Earnings Surprises",
-          "url": "https://finance.yahoo.com/news/strong-computer-technology-stocks-slated-140006233.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 14:00:06 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -292,7 +313,7 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-25 05:00:34",
+      "timestamp": "2026-02-25 05:42:57",
       "analyst_data": {
         "strongBuy": 6,
         "buy": 25,
@@ -304,8 +325,8 @@
     {
       "id": "sig_20260224_US_004",
       "theme": "##결제",
-      "short_reason": "Vitalik Buterin Decided To 'Le...",
-      "summary": "오늘 비자의 하락은 Vitalik Buterin Decided To 'Leave University For Good,' But Confirmation That It Was A Good Idea Only Came When He Experienced This 'Social Proof'와 관련된 불확실성이 시장에 반영된 영향이 큽니다.",
+      "short_reason": "Accertify Appoints Carleigh Ja...",
+      "summary": "오늘 비자의 하락은 Accertify Appoints Carleigh Jaques to Board of Directors와 관련된 불확실성이 시장에 반영된 영향이 큽니다.",
       "main_stock": {
         "name": "비자",
         "symbol": "V",
@@ -314,9 +335,16 @@
       },
       "news_articles": [
         {
-          "title": "Vitalik Buterin Decided To 'Leave University For Good,' But Confirmation That It Was A Good Idea Only Came When He Experienced This 'Social Proof'",
-          "url": "https://finance.yahoo.com/news/vitalik-buterin-decided-leave-university-123020969.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 12:30:20 +0000",
+          "title": "Accertify Appoints Carleigh Jaques to Board of Directors",
+          "url": "https://finance.yahoo.com/news/accertify-appoints-carleigh-jaques-board-130000451.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 13:00:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Fidelity National Q4 Earnings Miss Estimates on Increasing Expenses",
+          "url": "https://finance.yahoo.com/news/fidelity-national-q4-earnings-miss-184900156.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 18:49:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -349,16 +377,16 @@
           "has_name": true
         },
         {
-          "title": "PowerOne Capital Corp. Acquires Shares of Verdera Energy",
-          "url": "https://finance.yahoo.com/news/powerone-capital-corp-acquires-shares-135000043.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 13:50:00 +0000",
+          "title": "Vitalik Buterin Decided To 'Leave University For Good,' But Confirmation That It Was A Good Idea Only Came When He Experienced This 'Social Proof'",
+          "url": "https://finance.yahoo.com/news/vitalik-buterin-decided-leave-university-123020969.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 12:30:20 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Accertify Appoints Carleigh Jaques to Board of Directors",
-          "url": "https://finance.yahoo.com/news/accertify-appoints-carleigh-jaques-board-130000451.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 13:00:00 +0000",
+          "title": "PowerOne Capital Corp. Acquires Shares of Verdera Energy",
+          "url": "https://finance.yahoo.com/news/powerone-capital-corp-acquires-shares-135000043.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 13:50:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -369,7 +397,7 @@
           "change_rate": "-5.8%"
         }
       ],
-      "timestamp": "2026-02-25 05:00:34",
+      "timestamp": "2026-02-25 05:42:57",
       "analyst_data": {
         "strongBuy": 7,
         "buy": 30,
@@ -382,7 +410,7 @@
       "id": "sig_20260224_US_005",
       "theme": "##금융",
       "short_reason": "JPMorgan Chase & Co. (JPM) Cou...",
-      "summary": "오늘 JPMorgan의 하락은 JPMorgan Chase & Co. (JPM) Could Be a Great Choice와 관련된 불확실성이 시장에 반영된 영향이 큽니다.",
+      "summary": "JPMorgan 주가는 JPMorgan Chase & Co. (JPM) Could Be a Great Choice 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "JPMorgan",
         "symbol": "JPM",
@@ -394,6 +422,20 @@
           "title": "JPMorgan Chase & Co. (JPM) Could Be a Great Choice",
           "url": "https://finance.yahoo.com/news/jpmorgan-chase-co-jpm-could-164501814.html?.tsrc=rss",
           "date": "Tue, 24 Feb 2026 16:45:01 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Why Openlane Stock is Drawing Institutional Investor Interest",
+          "url": "https://www.fool.com/coverage/filings/2026/02/24/why-openlane-stock-is-drawing-institutional-investor-interest/?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 20:30:30 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Stocks to Watch Tuesday: Home Depot, Paramount, JP Morgan, FedEx",
+          "url": "https://finance.yahoo.com/m/0bdfb26c-185a-3467-9f1b-20db81eec6bc/stocks-to-watch-tuesday%3A-home.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 20:21:43 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -440,13 +482,6 @@
           "has_name": true
         },
         {
-          "title": "Stocks to Watch Tuesday: Home Depot, Paramount, JP Morgan, FedEx",
-          "url": "https://finance.yahoo.com/m/0bdfb26c-185a-3467-9f1b-20db81eec6bc/stocks-to-watch-tuesday%3A-home.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 15:14:50 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
           "title": "From JPMorgan’s New Skyscraper, Top Brass Is Grilled on AI and Competition",
           "url": "https://finance.yahoo.com/m/4dc426b8-945e-36ac-ae22-fb7c9f964f5c/from-jpmorgan%E2%80%99s-new.html?.tsrc=rss",
           "date": "02.24 22:18",
@@ -474,7 +509,7 @@
           "change_rate": "-3.8%"
         }
       ],
-      "timestamp": "2026-02-25 05:00:34",
+      "timestamp": "2026-02-25 05:42:57",
       "analyst_data": {
         "strongBuy": 5,
         "buy": 9,
@@ -486,8 +521,8 @@
     {
       "id": "sig_20260224_US_006",
       "theme": "##글로벌시황",
-      "short_reason": "Stocks Head Higher as Market A...",
-      "summary": "오늘 세일즈포스의 하락은 Stocks Head Higher as Market Attempts a Rebound와 관련된 불확실성이 시장에 반영된 영향이 큽니다.",
+      "short_reason": "Analysts' comments after Anthr...",
+      "summary": "세일즈포스은(는) Analysts' comments after Anthropic unveils new plug-ins 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
       "main_stock": {
         "name": "세일즈포스",
         "symbol": "CRM",
@@ -496,9 +531,23 @@
       },
       "news_articles": [
         {
-          "title": "Stocks Head Higher as Market Attempts a Rebound",
-          "url": "https://finance.yahoo.com/m/9a0e4573-f4dd-3a09-ac50-248de503af3d/stocks-head-higher-as-market.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 15:28:40 +0000",
+          "title": "Analysts' comments after Anthropic unveils new plug-ins",
+          "url": "https://finance.yahoo.com/news/analysts-comments-anthropic-unveils-plug-154506833.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 15:45:06 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Why Salesforce Stock Was Climbing Today",
+          "url": "https://www.fool.com/investing/2026/02/24/why-salesforce-stock-was-climbing-today/?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 20:04:31 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Nasdaq, Dow Jones recover as new Trump tariffs begin, IMB and Salesforce rebound",
+          "url": "https://www.proactiveinvestors.com/companies/news/1087833/s-p-500-expected-to-start-flat-as-new-trump-tariffs-begin-1087833.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 19:30:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -524,9 +573,9 @@
           "has_name": true
         },
         {
-          "title": "Nasdaq, Dow Jones recover as new Trump tariffs begin, IMB and Salesforce rebound",
-          "url": "https://www.proactiveinvestors.com/companies/news/1087833/s-p-500-expected-to-start-flat-as-new-trump-tariffs-begin-1087833.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 18:15:00 +0000",
+          "title": "Stocks Head Higher as Market Attempts a Rebound",
+          "url": "https://finance.yahoo.com/m/9a0e4573-f4dd-3a09-ac50-248de503af3d/stocks-head-higher-as-market.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 15:28:40 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -578,13 +627,6 @@
           "date": "Tue, 24 Feb 2026 16:31:10 +0000",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Analysts' comments after Anthropic unveils new plug-ins",
-          "url": "https://finance.yahoo.com/news/analysts-comments-anthropic-unveils-plug-154506833.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 15:45:06 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -601,7 +643,7 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-25 05:00:34",
+      "timestamp": "2026-02-25 05:42:57",
       "analyst_data": {
         "strongBuy": 7,
         "buy": 37,
@@ -613,8 +655,8 @@
     {
       "id": "sig_20260224_US_007",
       "theme": "##글로벌시황",
-      "short_reason": "Dell stock target cut at BofA ...",
-      "summary": "오늘 뱅크오브아메리카의 하락은 Dell stock target cut at BofA on rising memory costs와 관련된 불확실성이 시장에 반영된 영향이 큽니다.",
+      "short_reason": "BofA Cuts West Pharmaceutical ...",
+      "summary": "뱅크오브아메리카 주가는 BofA Cuts West Pharmaceutical (WST) Target Following Model Update and Sector Pressure 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "뱅크오브아메리카",
         "symbol": "BAC",
@@ -623,9 +665,16 @@
       },
       "news_articles": [
         {
-          "title": "Dell stock target cut at BofA on rising memory costs",
-          "url": "https://finance.yahoo.com/news/dell-stock-target-cut-bofa-151133363.html?.tsrc=rss",
-          "date": "02.24 00:11",
+          "title": "BofA Cuts West Pharmaceutical (WST) Target Following Model Update and Sector Pressure",
+          "url": "https://finance.yahoo.com/news/bofa-cuts-west-pharmaceutical-wst-042403156.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 04:24:03 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "How The Merger Debate Is Rewriting The Story For American Water Works Company (AWK)",
+          "url": "https://finance.yahoo.com/news/merger-debate-rewriting-story-american-200922978.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 20:09:22 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -658,6 +707,13 @@
           "has_name": true
         },
         {
+          "title": "Dell stock target cut at BofA on rising memory costs",
+          "url": "https://finance.yahoo.com/news/dell-stock-target-cut-bofa-151133363.html?.tsrc=rss",
+          "date": "02.24 00:11",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
           "title": "From JPMorgan’s New Skyscraper, Top Brass Is Grilled on AI and Competition",
           "url": "https://finance.yahoo.com/m/4dc426b8-945e-36ac-ae22-fb7c9f964f5c/from-jpmorgan%E2%80%99s-new.html?.tsrc=rss",
           "date": "Tue, 24 Feb 2026 13:18:00 +0000",
@@ -670,13 +726,6 @@
           "date": "Mon, 23 Feb 2026 23:16:37 +0000",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "BofA Cuts West Pharmaceutical (WST) Target Following Model Update and Sector Pressure",
-          "url": "https://finance.yahoo.com/news/bofa-cuts-west-pharmaceutical-wst-042403156.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 04:24:03 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -685,7 +734,7 @@
           "change_rate": "-4.2%"
         }
       ],
-      "timestamp": "2026-02-25 05:00:34",
+      "timestamp": "2026-02-25 05:42:57",
       "analyst_data": {
         "strongBuy": 6,
         "buy": 15,
@@ -697,8 +746,8 @@
     {
       "id": "sig_20260224_US_008",
       "theme": "##글로벌시황",
-      "short_reason": "PARAMOUNT CONFIRMS SUBMISSION ...",
-      "summary": "넷플릭스 주가는 PARAMOUNT CONFIRMS SUBMISSION OF REVISED PROPOSAL TO ACQUIRE WARNER BROS. DISCOVERY 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "short_reason": "Paramount, Netflix's bidding w...",
+      "summary": "넷플릭스 주가는 Paramount, Netflix's bidding war 'underscores' Warner Bros. value 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "넷플릭스",
         "symbol": "NFLX",
@@ -707,9 +756,16 @@
       },
       "news_articles": [
         {
-          "title": "PARAMOUNT CONFIRMS SUBMISSION OF REVISED PROPOSAL TO ACQUIRE WARNER BROS. DISCOVERY",
-          "url": "https://finance.yahoo.com/news/paramount-confirms-submission-revised-proposal-141000850.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 14:10:00 +0000",
+          "title": "Paramount, Netflix's bidding war 'underscores' Warner Bros. value",
+          "url": "https://finance.yahoo.com/video/paramount-netflixs-bidding-war-underscores-152500959.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 15:25:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Warner Bros weighing revised bid from Paramount as bidding war escalates",
+          "url": "https://finance.yahoo.com/news/warner-bros-weighing-revised-bid-132442141.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 20:14:31 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -738,6 +794,13 @@
           "title": "Netflix Declines 8% Post Q4 Earnings: Buy, Sell or Hold the Stock?",
           "url": "https://finance.yahoo.com/news/netflix-declines-8-post-q4-163600304.html?.tsrc=rss",
           "date": "Tue, 24 Feb 2026 16:36:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "PARAMOUNT CONFIRMS SUBMISSION OF REVISED PROPOSAL TO ACQUIRE WARNER BROS. DISCOVERY",
+          "url": "https://finance.yahoo.com/news/paramount-confirms-submission-revised-proposal-141000850.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 14:10:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -775,13 +838,6 @@
           "date": "02.24 23:27",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Paramount, Netflix's bidding war 'underscores' Warner Bros. value",
-          "url": "https://finance.yahoo.com/video/paramount-netflixs-bidding-war-underscores-152500959.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 15:25:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -802,7 +858,7 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-25 05:00:34",
+      "timestamp": "2026-02-25 05:42:57",
       "analyst_data": {
         "strongBuy": 9,
         "buy": 22,
@@ -814,8 +870,8 @@
     {
       "id": "sig_20260224_US_009",
       "theme": "##빅테크",
-      "short_reason": "Microsoft’s $83.09 Billion Dec...",
-      "summary": "마이크로소프트 주가는 Microsoft’s $83.09 Billion Decision Could Shape What Happens Next 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "short_reason": "Advanced Micro Devices Strikes...",
+      "summary": "오늘 마이크로소프트의 하락은 Advanced Micro Devices Strikes Deal to Power Meta Platforms' AI Infrastructure와 관련된 불확실성이 시장에 반영된 영향이 큽니다.",
       "main_stock": {
         "name": "마이크로소프트",
         "symbol": "MSFT",
@@ -824,9 +880,30 @@
       },
       "news_articles": [
         {
-          "title": "Microsoft’s $83.09 Billion Decision Could Shape What Happens Next",
-          "url": "https://247wallst.com/investing/2026/02/24/microsofts-83-09-billion-decision-could-shape-what-happens-next/?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 15:37:14 +0000",
+          "title": "Advanced Micro Devices Strikes Deal to Power Meta Platforms' AI Infrastructure",
+          "url": "https://finance.yahoo.com/news/advanced-micro-devices-strikes-deal-153803652.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 15:38:03 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Why Openlane Stock is Drawing Institutional Investor Interest",
+          "url": "https://www.fool.com/coverage/filings/2026/02/24/why-openlane-stock-is-drawing-institutional-investor-interest/?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 20:30:30 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "White House Presses Tech Giants to Pledge Data Centers Won't Raise Power Prices",
+          "url": "https://finance.yahoo.com/news/white-house-presses-tech-giants-201738622.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 20:17:38 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Stripe Reaches $159 Billion Valuation as Payment Volume Jumps 34%",
+          "url": "https://finance.yahoo.com/news/stripe-reaches-159-billion-valuation-195143711.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 19:51:43 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -841,6 +918,13 @@
           "title": "Anthropic Extends Enterprise Olive Branch, Lifts Software Stocks",
           "url": "https://finance.yahoo.com/m/bb3a0955-48a7-3530-b2c5-df829eeb27ad/anthropic-extends-enterprise.html?.tsrc=rss",
           "date": "Tue, 24 Feb 2026 18:32:31 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Microsoft’s $83.09 Billion Decision Could Shape What Happens Next",
+          "url": "https://247wallst.com/investing/2026/02/24/microsofts-83-09-billion-decision-could-shape-what-happens-next/?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 15:37:14 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -913,13 +997,6 @@
           "date": "Tue, 24 Feb 2026 15:39:16 +0000",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Advanced Micro Devices Strikes Deal to Power Meta Platforms' AI Infrastructure",
-          "url": "https://finance.yahoo.com/news/advanced-micro-devices-strikes-deal-153803652.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 15:38:03 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -944,7 +1021,7 @@
           "change_rate": "-4.6%"
         }
       ],
-      "timestamp": "2026-02-25 05:00:34",
+      "timestamp": "2026-02-25 05:42:57",
       "analyst_data": {
         "strongBuy": 10,
         "buy": 44,
@@ -956,8 +1033,8 @@
     {
       "id": "sig_20260224_US_010",
       "theme": "##전기차",
-      "short_reason": "Tesla Europe sales tumble 17% ...",
-      "summary": "테슬라은(는) Tesla Europe sales tumble 17% in January as China's BYD soars 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "short_reason": "EXL announces speaker roster f...",
+      "summary": "테슬라 주가는 EXL announces speaker roster for AI in Action Americas virtual event – accelerating enterprise AI from pilot to impact 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "테슬라",
         "symbol": "TSLA",
@@ -966,9 +1043,16 @@
       },
       "news_articles": [
         {
-          "title": "Tesla Europe sales tumble 17% in January as China's BYD soars",
-          "url": "https://finance.yahoo.com/news/tesla-europe-sales-tumble-17-in-january-as-chinas-byd-soars-152503422.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 15:25:03 +0000",
+          "title": "EXL announces speaker roster for AI in Action Americas virtual event – accelerating enterprise AI from pilot to impact",
+          "url": "https://finance.yahoo.com/news/exl-announces-speaker-roster-ai-155700778.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 15:57:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Tesla Challenges California DMV False Advertising Ruling",
+          "url": "https://finance.yahoo.com/news/tesla-challenges-california-dmv-false-202317574.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 20:23:17 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -997,6 +1081,13 @@
           "title": "Have Mag 7 Stocks Transformed into GARP Plays?",
           "url": "https://finance.yahoo.com/news/mag-7-stocks-transformed-garp-181300610.html?.tsrc=rss",
           "date": "Tue, 24 Feb 2026 18:13:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Tesla Europe sales tumble 17% in January as China's BYD soars",
+          "url": "https://finance.yahoo.com/news/tesla-europe-sales-tumble-17-in-january-as-chinas-byd-soars-152503422.html?.tsrc=rss",
+          "date": "Tue, 24 Feb 2026 15:25:03 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -1041,17 +1132,10 @@
           "date": "Tue, 24 Feb 2026 14:33:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "EXL announces speaker roster for AI in Action Americas virtual event – accelerating enterprise AI from pilot to impact",
-          "url": "https://finance.yahoo.com/news/exl-announces-speaker-roster-ai-155700778.html?.tsrc=rss",
-          "date": "Tue, 24 Feb 2026 15:57:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [],
-      "timestamp": "2026-02-25 05:00:34",
+      "timestamp": "2026-02-25 05:42:57",
       "analyst_data": {
         "strongBuy": 4,
         "buy": 16,
