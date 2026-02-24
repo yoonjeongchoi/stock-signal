@@ -51,8 +51,8 @@ def main():
     col_date, col_market, col_info, col_refresh = st.columns([1.5, 2, 4, 2.5])
 
     with col_date:
-        default_date_str = crawler.get_last_trading_day()
-        default_date = datetime.datetime.strptime(default_date_str, "%Y-%m-%d").date()
+        kst_now = datetime.datetime.utcnow() + datetime.timedelta(hours=9)
+        default_date = kst_now.date()
         selected_date = st.date_input("날짜 선택", default_date)
         date_str = selected_date.strftime("%Y-%m-%d")
 
@@ -71,24 +71,8 @@ def main():
             
     with col_refresh:
         st.write("") # padding
-        if st.button("🔄 최신 데이터 업데이트"):
-            with st.spinner(f"최신 데이터를 수집하고 분석 중입니다... (약 1~2분 소요)"):
-                try:
-                    market_arg = "US" if selected_market == "🇺🇸 미국 주식" else "KR"
-                    success = crawler.generate_daily_json(date_str, market=market_arg)
-                    if success:
-                        st.rerun()
-                    else:
-                        st.error("데이터 업데이트에 실패했습니다.")
-                except Exception as e:
-                    st.error(f"오류 발생: {e}")
-
-    st.markdown("---")
-
-    if not data:
-        st.info(f"{date_str}의 시그널 데이터가 아직 없습니다.")
-        if st.button("🔄 시그널 데이터 생성하기"):
-            with st.spinner(f"{date_str}의 공시와 뉴스를 분석하여 시그널을 생성 중입니다..."):
+        if st.button("🚀 시그널 데이터 생성하기"):
+            with st.spinner(f"{date_str}의 공시와 뉴스를 분석하여 시그널을 생성 중입니다... (약 1~2분 소요)"):
                 try:
                     market_arg = "US" if selected_market == "🇺🇸 미국 주식" else "KR"
                     success = crawler.generate_daily_json(date_str, market=market_arg)
@@ -99,6 +83,11 @@ def main():
                         st.error("데이터 생성에 실패했습니다.")
                 except Exception as e:
                     st.error(f"오류 발생: {e}")
+
+    st.markdown("---")
+
+    if not data:
+        st.info(f"{date_str}의 시그널 데이터가 아직 없습니다. 상단의 '시그널 데이터 생성하기' 버튼을 눌러주세요.")
         return
 
     signals = data.get("signals", [])
@@ -218,8 +207,18 @@ def main():
                         url = article.get("url", "#")
                         date_str_article = article.get("date", "")
                         source = article.get("source", "")
-                        # Format date for cleaner look
-                        clean_date = date_str_article.split(" ")[1] if " " in date_str_article else date_str_article
+                        # Raw date format directly from crawler
+                        clean_date = date_str_article
+                        
+                        # Fix for existing unparsed strings
+                        if "+0000" in clean_date or "GMT" in clean_date:
+                            try:
+                                import email.utils
+                                dt = email.utils.parsedate_to_datetime(clean_date)
+                                dt_kst = dt.astimezone(datetime.timezone(datetime.timedelta(hours=9)))
+                                clean_date = dt_kst.strftime("%m.%d %H:%M")
+                            except Exception:
+                                pass
                         source_text = f" ({source})" if source else ""
                         # Simplify markdown rendering so it doesn't break
                         st.markdown(f"• [{title}]({url})")
@@ -240,6 +239,20 @@ def main():
                     st.markdown(f"• **{r_name}** {format_rate(r_rate)}")
 
         st.markdown("---")
+
+    # Auto-refresh page every 20 minutes (1,200,000 milliseconds)
+    import streamlit.components.v1 as components
+    components.html(
+        """
+        <script>
+        setTimeout(function(){
+            window.parent.location.reload();
+        }, 1200000);
+        </script>
+        """,
+        height=0
+    )
+
 
 if __name__ == "__main__":
     main()
