@@ -568,18 +568,18 @@ def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data
 
             if market == "US":
                 prompt = (
-                    f"전문 금융 분석가로서 미국 주식 {stock_name}의 주가 {direction} 핵심 원인을 2~3줄로 한국어로 요약하세요.\n"
-                    f"딱딱하고 기계적인 어투 대신, 블로그나 리포트에서 볼 법한 읽기 편한 문맥을 사용하세요.\n"
-                    f"영어 뉴스 기사들 (첫 번째 기사가 가장 중요함):\n\n"
+                    f"전문 금융 분석가로서 미국 주식 {stock_name}의 주가 {direction} 핵심 원인을 분석하세요.\n"
+                    f"**아래 영어 뉴스 기사들을 바탕으로 작성하세요 (첫 번째 기사가 가장 중요함):**\n\n"
                 )
             else:
                 prompt = (
-                    f"전문 금융 분석가로서 주가 {direction}의 핵심 원인을 명확하고 구체적이며 자연스럽게 2~3줄로 요약하세요.\n"
-                    f"딱딱하고 기계적인 어투('--보이며', '--마감했습니다') 대신, 블로그나 리포트에서 볼 법한 전문적이면서도 읽기 편한 문맥을 사용하세요.\n"
-                    f"뉴스 기사들 (첫 번째 기사가 가장 중요함):\n\n"
+                    f"전문 금융 분석가로서 한국 주식 {stock_name}의 주가 {direction} 핵심 원인을 분석하세요.\n"
+                    f"**아래 뉴스/공시 정보들을 바탕으로 작성하세요 (첫 번째 기사가 가장 중요함):**\n\n"
                 )
             
-            for i, article in enumerate(reordered[:3]):
+            # Determine slice limit based on market
+            limit = 5
+            for i, article in enumerate(reordered[:limit]):
                 title = article.get("title", "")
                 content = article.get("content", "")
                 prompt += f"기사 {i+1}: {title}\n내용: {content[:1000]}\n\n"
@@ -591,33 +591,27 @@ def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data
                 prompt += f"- 외국인: {investor_data['외국인']}\n"
                 prompt += f"- 기관: {investor_data['기관']}\n\n"
                 
-            if market == "US" and analyst_data:
-                prompt += f"**참고용 월가 애널리스트 투자의견 (최근 1개월 기준):**\n"
-                prompt += f"- 강력 매수(Strong Buy): {analyst_data.get('strongBuy', 0)}명\n"
-                prompt += f"- 매수(Buy): {analyst_data.get('buy', 0)}명\n"
-                prompt += f"- 유지(Hold): {analyst_data.get('hold', 0)}명\n"
-                prompt += f"- 매도(Sell): {analyst_data.get('sell', 0)}명\n"
-                prompt += f"- 강력 매도(Strong Sell): {analyst_data.get('strongSell', 0)}명\n\n"
-                
+            # Remove analyst data section for US market
+
             if market == "US":
                 prompt += (
                     f"**작성 규칙:**\n"
-                    f"1. **기사 제목 번역 의무화**: 기사 원문 제목을 그대로 쓰지 말고, 반드시 한국어로 매끄럽게 번역하세요.\n"
-                    f"2. **자연스러운 번역 요약**: 번역된 제목과 함께 전체 기사 내용을 인과관계가 드러나도록 한국어로 자연스럽게 요약 설명하세요. ('어떤 이유로 주가가 올랐다/내렸다' 형식)\n"
-                    f"3. **월가 투자의견 반영(선택)**: 제공된 월가 투자의견 수치가 유의미하다면 괄호나 자연스러운 문맥으로 요약 끝에 덧붙여도 좋습니다. (예: 월가 대부분이 매수를 권고하고 있습니다 등)\n"
-                    f"4. **정형화된 문구 금지**: 기계적인 문장으로 시작하지 마세요.\n"
-                    f"5. **회사 특정적 요인**: {stock_name}의 사업이나 실적, 글로벌 경제 요인에 집중하세요.\n"
-                    f"6. **출력 형식**: 반드시 아래 JSON 형식으로만 답변하세요. 다른 설명은 붙이지 마세요.\n"
-                    f"{{\"translated_title\": \"번역된 매끄러운 한국어 기사 제목\", \"summary\": \"작성 규칙에 맞춘 한국어 요약문\"}}"
+                    f"1. **최우선 기사 선정**: 제공된 {limit}개의 기사 중 {stock_name} 주가에 가장 큰 영향을 미친 기사 1~2개를 선정하세요.\n"
+                    f"2. **짧은 이유 (short_reason)**: 주가 {direction}의 단편적인 핵심 이유를 명사형 어절이나 아주 짧은 문구로 작성하세요. (예: '깜짝 실적 발표', '빅테크 규제 우려')\n"
+                    f"3. **요약 (summary) 및 기사 번역**: 선정된 영어 기사 내용을 한국어로 매끄럽게 번역하여 인과관계를 2~3줄로 설명하세요.\n"
+                    f"4. **정형화된 기계적 문구 금지**: 기계적인 번역투 문장이나 '~~하여 상승 마감했습니다'로 시작하지 마세요.\n"
+                    f"5. **출력 형식**: 반드시 아래 JSON 형식으로만 답변하세요. 마크다운(`)이나 다른 설명은 절대 붙이지 마세요.\n"
+                    f"{{\"short_reason\": \"명사형 어절 이유\", \"summary\": \"작성 규칙에 맞춘 기사 번역 및 요약문\"}}"
                 )
             else:
                 prompt += (
                     f"**작성 규칙:**\n"
-                    f"1. **자연스러운 흐름**: 기사 내용과 수급 데이터(매수/매도 주체)를 자연스럽게 엮어서 인과관계를 설명하세요. 수치가 다소 부족하더라도 전체적인 흐름에 맞게 자연스럽게 요약하세요.\n"
-                    f"2. **수급 흐름 명시 필수**: 요약문 작성 시 '{time_ctx} 기준'임을 반드시 언급하고, 개인/외국인/기관 중 주요 매수/매도 주체의 흐름을 포함하세요.\n"
-                    f"3. **정형화된 문구 금지**: '주가가 강세를 보이며 상승 마감했습니다' 같은 뻔한 문장으로 시작하지 마세요.\n"
-                    f"4. **구체적 사실 중심**: 기사에 나온 수치(매출액, 계약 규모 등)와 수급 주체를 활용하세요.\n"
-                    f"5. **회사 특정적 요인**: {stock_name}의 사업이나 공시 내용에 집중하세요."
+                    f"1. **핵심 기사 분석**: 제공된 뉴스 중 가장 큰 영향을 미친 내용을 중심으로 분석하세요.\n"
+                    f"2. **짧은 이유 (short_reason)**: 주가 {direction}의 단편적인 핵심 이유를 명사형 어절이나 아주 짧은 문구로 작성하세요. (예: '대규모 수주 계약', '경영권 분쟁', '외국인 대량 매도')\n"
+                    f"3. **요약 (summary) 및 수급 동향**: 기사 요약과 함께, 수급 데이터(매수/매도 주체)를 요약문 안에 한 문장으로라도 자연스럽게 포함하세요. (예: '개인과 기관의 쌍끌이 매수세 속에...')\n"
+                    f"4. **정형화된 문구 금지**: '주가가 상승 마감했습니다' 같은 뻔한 문장으로 시작하지 마세요.\n"
+                    f"5. **출력 형식**: 반드시 아래 JSON 형식으로만 답변하세요. 마크다운(`)이나 다른 설명은 절대 붙이지 마세요.\n"
+                    f"{{\"short_reason\": \"명사형 어절 이유\", \"summary\": \"작성 규칙에 맞춘 기사 요약 및 수급 동향 설명 포함\"}}"
                 )
             
             from concurrent.futures import ThreadPoolExecutor, TimeoutError
@@ -626,20 +620,17 @@ def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data
             response = future.result(timeout=10)
                 
             if response and response.text:
-                if market == "US":
-                    # Attempt to parse json
-                    try:
-                        import json
-                        import re
-                        # Clean up markdown code blocks if any
-                        json_str = re.sub(r'```(?:json)?', '', response.text).strip()
-                        parsed = json.loads(json_str)
-                        return parsed # Return dict for US
-                    except Exception as e:
-                        print(f"Failed to parse Gemini JSON: {e}, text: {response.text}")
-                        return response.text.strip() # fallback
-                else:
-                    return response.text.strip()
+                # Attempt to parse json
+                try:
+                    import json
+                    import re
+                    # Clean up markdown code blocks if any
+                    json_str = re.sub(r'```(?:json)?', '', response.text).strip()
+                    parsed = json.loads(json_str)
+                    return parsed # Return dict for BOTH
+                except Exception as e:
+                    print(f"Failed to parse Gemini JSON: {e}, text: {response.text}")
+                    return {"short_reason": f"시장 수급 및 업황 변화에 따른 {direction}", "summary": response.text.strip()} # fallback
         except TimeoutError:
             print(f"Gemini API timed out for {stock_name}")
         except Exception as e:
@@ -666,14 +657,8 @@ def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data
     import random
     fallback_text = random.choice(templates)
     
-    if market == "KR" and investor_data:
-        time_ctx = "장중 실시간" if investor_data.get('is_realtime') else "장 마감"
-        fallback_text += f" ({time_ctx} 수급: 개인 {investor_data['개인']}, 외국인 {investor_data['외국인']}, 기관 {investor_data['기관']})"
-        
-    if market == "US":
-        return {"translated_title": main_news, "summary": fallback_text}
-    
-    return fallback_text
+    short_reason_fallback = f"{main_news[:30]}..." if main_news != "시장 수급 변화" else f"시장 수급 변화에 따른 {direction}"
+    return {"short_reason": short_reason_fallback, "summary": fallback_text}
 
 def generate_short_reason(stock_name, articles, change_val, best_idx=0, translated_title=None):
     if translated_title:
@@ -843,6 +828,8 @@ def generate_daily_json(date_str=None, market="KR"):
     if date_str is None: date_str = get_last_trading_day()
     print(f"Generating data for {date_str} ({market} market)...")
     
+    kst_now = datetime.datetime.utcnow() + timedelta(hours=9)
+    
     prefix = "us_" if market == "US" else ""
     output_file = os.path.join(DATA_DIR, f"{prefix}{date_str}.json")
     
@@ -935,16 +922,11 @@ def generate_daily_json(date_str=None, market="KR"):
             except Exception as e:
                 print(f"Error fetching analyst ratings: {e}")
             
-        # 6. Generate Summary
-        summary = generate_summary(name, articles, change_val, best_idx, investor_data=investor_data, analyst_data=analyst_data, market=market)
+        # 6. Generate Summary (dict containing short_reason, summary)
+        summary_obj = generate_summary(name, articles, change_val, best_idx, investor_data=investor_data, analyst_data=analyst_data, market=market)
         
-        translated_title = None
-        if isinstance(summary, dict):
-            translated_title = summary.get("translated_title")
-            summary = summary.get("summary", "")
-        
-        # 7. Generate Short Reason
-        short_reason = generate_short_reason(name, articles, change_val, best_idx, translated_title=translated_title)
+        short_reason = summary_obj.get("short_reason", f"업황 변화에 따른 상승" if change_val >= 0 else f"업황 변화에 따른 하락")
+        summary_text = summary_obj.get("summary", "")
         
         news_url = f"https://finance.yahoo.com/quote/{symbol}" if market == "US" else f"https://finance.naver.com/item/news.naver?code={symbol}"
         
@@ -952,22 +934,22 @@ def generate_daily_json(date_str=None, market="KR"):
             "id": f"sig_{date_str.replace('-','')}_{market}_{idx+1:03d}",
             "theme": f"#{theme}",
             "short_reason": short_reason,
-            "summary": summary,
+            "summary": summary_text,
             "main_stock": {
                 "name": name, "symbol": symbol, "change_rate": stock['change_rate'],
                 "news_url": news_url
             },
             "news_articles": articles,
             "related_stocks": related,
-            "timestamp": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            "timestamp": kst_now.strftime("%Y-%m-%d %H:%M:%S")
         }
         
-        if analyst_data:
+        if analyst_data and market == "US": # Only include analyst data for US market
             signal_data["analyst_data"] = analyst_data
             
         signals.append(signal_data)
 
-    output_data = {"last_updated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "signals": signals}
+    output_data = {"last_updated": kst_now.strftime("%Y-%m-%d %H:%M:%S"), "signals": signals}
     os.makedirs(DATA_DIR, exist_ok=True)
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)

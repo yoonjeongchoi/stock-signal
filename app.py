@@ -48,7 +48,7 @@ def main():
     st.caption("토스증권 AI가 핵심 시그널을 찾았어요")
 
     # Controls
-    col_date, col_market = st.columns([1, 2])
+    col_date, col_market, col_info, col_refresh = st.columns([1.5, 2, 4, 2.5])
 
     with col_date:
         default_date_str = crawler.get_last_trading_day()
@@ -59,10 +59,31 @@ def main():
     with col_market:
         selected_market = st.selectbox("시장", ["🇰🇷 국내 주식", "🇺🇸 미국 주식"])
 
-    st.markdown("---")
-
     market_prefix = "us_" if selected_market == "🇺🇸 미국 주식" else ""
     data = load_data(f"{market_prefix}{date_str}")
+    
+    last_updated = data.get("last_updated", "N/A") if data else "데이터 없음"
+    
+    with col_info:
+        if data:
+            st.write("") # padding
+            st.caption(f"⏱ 마지막 업데이트: {last_updated}")
+            
+    with col_refresh:
+        st.write("") # padding
+        if st.button("🔄 최신 데이터 업데이트"):
+            with st.spinner(f"최신 데이터를 수집하고 분석 중입니다... (약 1~2분 소요)"):
+                try:
+                    market_arg = "US" if selected_market == "🇺🇸 미국 주식" else "KR"
+                    success = crawler.generate_daily_json(date_str, market=market_arg)
+                    if success:
+                        st.rerun()
+                    else:
+                        st.error("데이터 업데이트에 실패했습니다.")
+                except Exception as e:
+                    st.error(f"오류 발생: {e}")
+
+    st.markdown("---")
 
     if not data:
         st.info(f"{date_str}의 시그널 데이터가 아직 없습니다.")
@@ -79,24 +100,6 @@ def main():
                 except Exception as e:
                     st.error(f"오류 발생: {e}")
         return
-
-    last_updated = data.get("last_updated", "N/A")
-    
-    col_info, col_refresh = st.columns([8, 2])
-    with col_info:
-        st.caption(f"⏱ 마지막 업데이트: {last_updated}")
-    with col_refresh:
-        if st.button("🔄 최신 데이터로 업데이트"):
-            with st.spinner(f"최신 데이터를 수집하고 분석 중입니다... (약 1~2분 소요)"):
-                try:
-                    market_arg = "US" if selected_market == "🇺🇸 미국 주식" else "KR"
-                    success = crawler.generate_daily_json(date_str, market=market_arg)
-                    if success:
-                        st.rerun()
-                    else:
-                        st.error("데이터 업데이트에 실패했습니다.")
-                except Exception as e:
-                    st.error(f"오류 발생: {e}")
 
     signals = data.get("signals", [])
     if not signals:
@@ -138,15 +141,23 @@ def main():
                 margin-top: -10px;
                 margin-bottom: 15px;
             }
+            .translated-title {
+                font-weight: bold;
+                font-size: 1.05rem;
+                color: #1f2937;
+                margin-top: 10px;
+                margin-bottom: 8px;
+            }
             </style>
         """, unsafe_allow_html=True)
 
-        # Determine time_ago tag
+        # Determine time_ago tag natively in KST
         sig_ts_str = signal.get("timestamp")
         if sig_ts_str:
             try:
                 sig_ts = datetime.datetime.strptime(sig_ts_str, "%Y-%m-%d %H:%M:%S")
-                now = datetime.datetime.now()
+                # Now that all JSON uses KST explicitly, we compare with KST now
+                now = datetime.datetime.utcnow() + datetime.timedelta(hours=9)
                 diff = now - sig_ts
                 hours = diff.total_seconds() // 3600
                 minutes = diff.total_seconds() // 60
@@ -172,7 +183,7 @@ def main():
                         time_ago = f"{int(hours)}시간 전"
                     else:
                         time_ago = sig_ts.strftime("%H:%M 기준")
-            except:
+            except Exception as e:
                 time_ago = "업데이트 완료"
         else:
             time_ago = "업데이트 완료"
@@ -193,26 +204,16 @@ def main():
                 # AI Summary Section
                 question = "왜 내렸을까? 📉" if m_rate.startswith("-") else "왜 올랐을까? 🤖"
                 st.markdown(f"**{question}**")
-                st.write(summary)
-                
-                # Analyst Ratings
-                if analyst_data:
-                    st.markdown("<br>**📊 월가 투자의견 (최근 1개월)**", unsafe_allow_html=True)
-                    # Wrap the metrics in a container to ensure they don't break subsequent layout
-                    with st.container():
-                        cols = st.columns(5)
-                        cols[0].metric("강력 매수", analyst_data.get('strongBuy', 0))
-                        cols[1].metric("매수", analyst_data.get('buy', 0))
-                        cols[2].metric("중립/유지", analyst_data.get('hold', 0))
-                        cols[3].metric("매도", analyst_data.get('sell', 0))
-                        cols[4].metric("강력 매도", analyst_data.get('strongSell', 0))
+                # Summary is now consistently formatted string from backend 
+                st.write(str(summary))
 
                 st.markdown("---")
                 
-                # News articles list - Limit 3
+                # News articles list - Dynamic Limit based on market
                 st.markdown("**📰 뉴스·정보**")
                 if news_articles:
-                    for article in news_articles[:3]: # Strict display limit of 3
+                    limit = 5 if selected_market == "🇺🇸 미국 주식" else 3
+                    for article in news_articles[:limit]: 
                         title = article.get("title", "")
                         url = article.get("url", "#")
                         date_str_article = article.get("date", "")
