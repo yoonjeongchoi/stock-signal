@@ -3,8 +3,8 @@ name: Toss Signal crawler (KR)
 on:
   schedule:
     # 09:00~15:00 KST (00:00~06:00 UTC) during weekdays (Mon-Fri)
-    # Run every 20 minutes (e.g., 0, 20, 40)
-    - cron: '*/20 0-6 * * 1-5'
+    # Run every 20 minutes (e.g., 7, 27, 47 to avoid GH Actions delay)
+    - cron: '7,27,47 0-6 * * 1-5'
   workflow_dispatch: # Allow manual trigger
 
 permissions:
