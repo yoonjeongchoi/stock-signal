@@ -4,7 +4,7 @@ import os
 import datetime
 import sys
 # Add project root to sys.path so we can import from 'backend'
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.append(os.path.dirname(__file__))
 from backend import crawler
 import pandas as pd
 import FinanceDataReader as fdr
