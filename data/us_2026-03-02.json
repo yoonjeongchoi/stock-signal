@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-02 13:44:51",
+  "last_updated": "2026-03-02 15:46:30",
   "signals": [
     {
       "id": "sig_20260302_US_001",
       "theme": "#Entertainment",
       "signal_type": "이슈",
       "short_reason": "Netflix, Walks",
-      "summary": "오늘 Netflix 주가는 관련 주요 외신 보도 등이 호재로 작용하며 긍정적인 흐름을 보였습니다. 주요 관련 뉴스: [Netflix Walks From Warner Deal To Double Down On Core Growth Plan], [Elizabeth Warren Questions Trump's Role In Tilting Warner Bros. Bid In Favor Of Ellison Family: 'Looks Like Crony Capitalism...'], [Paramount’s ‘Scream 7’ Adds to Media Company’s Weekend of Wins]",
+      "summary": "오늘 Netflix 주가는 관련 주요 외신 보도 등이 호재로 작용하며 긍정적인 흐름을 보였습니다. 주요 관련 뉴스: [Netflix Walks From Warner Deal To Double Down On Core Growth Plan], [Streaming Is Going to Cost More. That’s the Price of Mergers.], [Elizabeth Warren Questions Trump's Role In Tilting Warner Bros. Bid In Favor Of Ellison Family: 'Looks Like Crony Capitalism...']",
       "main_stock": {
         "name": "Netflix",
         "symbol": "NFLX",
@@ -18,6 +18,13 @@
           "title": "Netflix Walks From Warner Deal To Double Down On Core Growth Plan",
           "url": "https://finance.yahoo.com/news/netflix-walks-warner-deal-double-211042430.html?.tsrc=rss",
           "date": "03.02 06:10",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Streaming Is Going to Cost More. That’s the Price of Mergers.",
+          "url": "https://finance.yahoo.com/m/ed038fb0-2ccf-30a6-a320-703ffa4c7a9b/streaming-is-going-to-cost.html?.tsrc=rss",
+          "date": "03.02 15:00",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -72,7 +79,7 @@
           "change_rate": "+0.4%"
         }
       ],
-      "timestamp": "2026-03-02 13:44:51"
+      "timestamp": "2026-03-02 15:46:30"
     },
     {
       "id": "sig_20260302_US_002",
@@ -137,14 +144,14 @@
           "change_rate": "-1.7%"
         }
       ],
-      "timestamp": "2026-03-02 13:44:51"
+      "timestamp": "2026-03-02 15:46:30"
     },
     {
       "id": "sig_20260302_US_003",
       "theme": "#Finance",
       "signal_type": "이슈",
       "short_reason": "American, Express",
-      "summary": "American Express 주가는 관련 주요 외신 보도 등에 따른 투자 심리 위축으로 하락 마감했습니다. 주요 관련 뉴스: [American Express (AXP) Plans New Global Headquarters at 2 World Trade Center], [Berkshire Hathaway’s CEO Suggests These 4 Companies Are Forever Stocks—and 2 That Might Not Be], [American Express Headquarters Move Tests Long Term Growth And Talent Plans]",
+      "summary": "American Express은(는) 관련 주요 외신 보도 여파로 인해 매도 압력이 높아지며 약세를 보였습니다. 주요 관련 뉴스: [American Express (AXP) Plans New Global Headquarters at 2 World Trade Center], [Berkshire Hathaway’s CEO Suggests These 4 Companies Are Forever Stocks—and 2 That Might Not Be], [American Express Headquarters Move Tests Long Term Growth And Talent Plans]",
       "main_stock": {
         "name": "American Express",
         "symbol": "AXP",
@@ -198,7 +205,7 @@
           "change_rate": "+0.5%"
         }
       ],
-      "timestamp": "2026-03-02 13:44:51"
+      "timestamp": "2026-03-02 15:46:30"
     },
     {
       "id": "sig_20260302_US_004",
@@ -271,14 +278,14 @@
           "change_rate": "-2.4%"
         }
       ],
-      "timestamp": "2026-03-02 13:44:51"
+      "timestamp": "2026-03-02 15:46:30"
     },
     {
       "id": "sig_20260302_US_005",
       "theme": "#Finance",
       "signal_type": "이슈",
       "short_reason": "Morgan, Stanley",
-      "summary": "Morgan Stanley 주가는 관련 주요 외신 보도 등에 따른 투자 심리 위축으로 하락 마감했습니다. 주요 관련 뉴스: [Morgan Stanley (MS): A Bull Case Theory], [Socorro Dumps Its Entire Alexandria Real Estate (ARE) Position Worth $5.2 Million], [Morgan Stanley Explores Crypto Custody While Shares Trade Near Fair Value]",
+      "summary": "Morgan Stanley은(는) 관련 주요 외신 보도 여파로 인해 매도 압력이 높아지며 약세를 보였습니다. 주요 관련 뉴스: [Morgan Stanley (MS): A Bull Case Theory], [Socorro Dumps Its Entire Alexandria Real Estate (ARE) Position Worth $5.2 Million], [Morgan Stanley Explores Crypto Custody While Shares Trade Near Fair Value]",
       "main_stock": {
         "name": "Morgan Stanley",
         "symbol": "MS",
@@ -344,14 +351,14 @@
           "change_rate": "-2.4%"
         }
       ],
-      "timestamp": "2026-03-02 13:44:51"
+      "timestamp": "2026-03-02 15:46:30"
     },
     {
       "id": "sig_20260302_US_006",
       "theme": "#Finance",
       "signal_type": "이슈",
       "short_reason": "Wells, Fargo",
-      "summary": "Wells Fargo은(는) 관련 주요 외신 보도 여파로 인해 매도 압력이 높아지며 약세를 보였습니다. 주요 관련 뉴스: [Wells Fargo Fraud Reversal Puts Elderly Protections And Valuation In Focus], [Wells Fargo Cuts PT on Sarepta Therapeutics (SRPT) to $38 From $45], [Wells Fargo Cuts PT on Soleno Therapeutics (SLNO) to $110 From $114 – Here’s Why]",
+      "summary": "Wells Fargo 주가는 관련 주요 외신 보도 등에 따른 투자 심리 위축으로 하락 마감했습니다. 주요 관련 뉴스: [Wells Fargo Fraud Reversal Puts Elderly Protections And Valuation In Focus], [Wells Fargo Cuts PT on Sarepta Therapeutics (SRPT) to $38 From $45], [Wells Fargo Cuts PT on Soleno Therapeutics (SLNO) to $110 From $114 – Here’s Why]",
       "main_stock": {
         "name": "Wells Fargo",
         "symbol": "WFC",
@@ -417,14 +424,14 @@
           "change_rate": "-6.2%"
         }
       ],
-      "timestamp": "2026-03-02 13:44:51"
+      "timestamp": "2026-03-02 15:46:30"
     },
     {
       "id": "sig_20260302_US_007",
       "theme": "#Finance",
       "signal_type": "이슈",
       "short_reason": "Why, Citigroup",
-      "summary": "Citigroup은(는) 관련 주요 외신 보도 여파로 인해 매도 압력이 높아지며 약세를 보였습니다. 주요 관련 뉴스: [Why Citigroup (C) Stock Is Falling Today], [How The Kimbell Royalty Partners (KRP) Investment Story Is Reset Around Tighter Valuation Targets], [Why the Iran Attack Proves Bonds Are Still a Safety Net]",
+      "summary": "Citigroup 주가는 관련 주요 외신 보도 등에 따른 투자 심리 위축으로 하락 마감했습니다. 주요 관련 뉴스: [Why Citigroup (C) Stock Is Falling Today], [How The Kimbell Royalty Partners (KRP) Investment Story Is Reset Around Tighter Valuation Targets], [Why the Iran Attack Proves Bonds Are Still a Safety Net]",
       "main_stock": {
         "name": "Citigroup",
         "symbol": "C",
@@ -490,14 +497,14 @@
           "change_rate": "-6.2%"
         }
       ],
-      "timestamp": "2026-03-02 13:44:51"
+      "timestamp": "2026-03-02 15:46:30"
     },
     {
       "id": "sig_20260302_US_008",
       "theme": "#Finance",
       "signal_type": "이슈",
       "short_reason": "Bank, of",
-      "summary": "Bank of America은(는) 관련 주요 외신 보도 여파로 인해 매도 압력이 높아지며 약세를 보였습니다. 주요 관련 뉴스: [Bank of America revamps gold stock price target for 2026], [$104 Billion Is Flowing to International Stocks. Should You Join in?], [Warren Buffett Sells Stocks in His Final Quarter as Berkshire Hathaway CEO: Should You Follow Suit?]",
+      "summary": "Bank of America 주가는 관련 주요 외신 보도 등에 따른 투자 심리 위축으로 하락 마감했습니다. 주요 관련 뉴스: [Bank of America revamps gold stock price target for 2026], [$104 Billion Is Flowing to International Stocks. Should You Join in?], [Warren Buffett Sells Stocks in His Final Quarter as Berkshire Hathaway CEO: Should You Follow Suit?]",
       "main_stock": {
         "name": "Bank of America",
         "symbol": "BAC",
@@ -563,14 +570,14 @@
           "change_rate": "-6.2%"
         }
       ],
-      "timestamp": "2026-03-02 13:44:51"
+      "timestamp": "2026-03-02 15:46:30"
     },
     {
       "id": "sig_20260302_US_009",
       "theme": "#Semiconductors",
       "signal_type": "이슈",
       "short_reason": "NVIDIA’s, Sovereign",
-      "summary": "NVIDIA 주가는 관련 주요 외신 보도 등에 따른 투자 심리 위축으로 하락 마감했습니다. 주요 관련 뉴스: [NVIDIA’s Sovereign AI Deals And Meta Alliance Shape Valuation Debate], [Wall Street Says Forget AI Chips, and Buy AI Software Stocks Instead for 2026], [Bitcoin at $150,000 by 2026? Prediction Markets Are Skeptical -- Long-Term Investors Should Pay Attention to the Odds.]",
+      "summary": "NVIDIA 주가는 관련 주요 외신 보도 등에 따른 투자 심리 위축으로 하락 마감했습니다. 주요 관련 뉴스: [NVIDIA’s Sovereign AI Deals And Meta Alliance Shape Valuation Debate], [3 Dividend Stocks to Double Up on Right Now], [Better Cryptocurrency to Buy Now With $1,000 and Hold for 3 Years: XRP vs. Ethereum]",
       "main_stock": {
         "name": "NVIDIA",
         "symbol": "NVDA",
@@ -582,6 +589,34 @@
           "title": "NVIDIA’s Sovereign AI Deals And Meta Alliance Shape Valuation Debate",
           "url": "https://finance.yahoo.com/news/nvidia-sovereign-ai-deals-meta-042133138.html?.tsrc=rss",
           "date": "03.02 13:21",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "3 Dividend Stocks to Double Up on Right Now",
+          "url": "https://www.fool.com/investing/2026/03/02/3-dividend-stocks-to-double-up-on-right-now/?.tsrc=rss",
+          "date": "03.02 15:20",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Better Cryptocurrency to Buy Now With $1,000 and Hold for 3 Years: XRP vs. Ethereum",
+          "url": "https://www.fool.com/investing/2026/03/02/better-cryptocurrency-to-buy-now-with-1000-and-hol/?.tsrc=rss",
+          "date": "03.02 15:05",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Britain’s old-economy giants are the City’s new favourite trade",
+          "url": "https://uk.finance.yahoo.com/news/britain-old-economy-giants-city-060000881.html?.tsrc=rss",
+          "date": "03.02 15:00",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Can MercadoLibre Stock Get to $2,000?",
+          "url": "https://www.fool.com/investing/2026/03/02/can-mercadolibre-stock-get-to-2000/?.tsrc=rss",
+          "date": "03.02 14:20",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -636,7 +671,7 @@
           "change_rate": "+3.0%"
         }
       ],
-      "timestamp": "2026-03-02 13:44:51"
+      "timestamp": "2026-03-02 15:46:30"
     },
     {
       "id": "sig_20260302_US_010",
@@ -697,7 +732,7 @@
           "change_rate": "+2.8%"
         }
       ],
-      "timestamp": "2026-03-02 13:44:51"
+      "timestamp": "2026-03-02 15:46:30"
     }
   ]
 }
